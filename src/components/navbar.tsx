@@ -5,9 +5,9 @@ const linkStyle = {
 }
 
 const Navbar = (props:any) => (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light mx-5 px-3 rounded-bottom">
       <Link href="/" className="navbar-brand">
-        My Website
+        Let
       </Link>
   
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@ const Navbar = (props:any) => (
   
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
+          <li className="nav-item ml-3">
             <Link href="/" className="nav-link">
               Home
             </Link>
