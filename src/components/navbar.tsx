@@ -6,8 +6,8 @@ const linkStyle = {
 
 const Navbar = (props:any) => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link href="/">
-        <a className="navbar-brand">My Website</a>
+      <Link href="/" className="navbar-brand">
+        My Website
       </Link>
   
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,18 +17,18 @@ const Navbar = (props:any) => (
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link href="/">
-              <a className="nav-link">Home</a>
+            <Link href="/" className="nav-link">
+              Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/sobre">
-              <a className="nav-link">Hobbies</a>
+            <Link href="/sobre" className="nav-link">
+              Hobbies
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/contato">
-              <a className="nav-link">Contact</a>
+            <Link href="/contato" className="nav-link">
+              Contact
             </Link>
           </li>
         </ul>
