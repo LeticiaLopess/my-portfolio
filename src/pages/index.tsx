@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
 
         <Navbar>
-
+          
         </Navbar>
 
         <Button color="info">

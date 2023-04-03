@@ -79,6 +79,11 @@
   margin: 0;
 }
 
+.rounded-bottom {
+  border-bottom-right-radius: 18px!important;
+  border-bottom-left-radius: 18px!important;
+}
+
 html,
 body {
   max-width: 100vw;
